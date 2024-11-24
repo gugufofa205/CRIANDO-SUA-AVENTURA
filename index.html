@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Em busca de um tesouro</title>
+</head>
+<body>
+   <main>
+       <div class="passo ativo" id="passo-0">
+        <img src="img/cenario-passo0.png" alt="">
+        <p>Um dia em enquanto 
+            estavam em uma selva
+            fechada, 3 garotos
+            encontraram em uma 
+            rocha enorme uma
+            enscrição, contendo pistas
+            a respeito de um antigo e 
+            valioso tesouro.
+            Nessa rocha as pistas 
+            para o tesouro apontam 
+            diferentes regioes do Brasil,
+            eles escolhem uma para 
+            seguir!</p>
+            <button class="btn-proximo" data-proximo="1">Região Norte</button>
+            <button class="btn-proximo" data-proximo="2">Região Sul</button>
+       </div>
+       <div class="passo" id="passo-1">
+       <p>Seguindo dentro da região, eles vão até a cidade indicada que é Manaus. E acham que a próxima pista pode estar no Teatro Amazonas</p>
+           <button class="btn-proximo" data-proximo="3">procurar a pista dentro do Teatro</button>
+           <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+      </div>
+      <div class="passo" id="passo-2">
+        <p>Seguindo por dentro da região Sul, eles vão até a cidade de Porto Alegre, mas devem escolher entre o Parque Redenção e a Casa de Cultura Mario Quintana eles vão até:</p>
+        <button class="btn-proximo" data-proximo="5">Investigar o Parque redenção</button>
+        <button class="btn-proximo" data-proximo="6">Explorar Casa de Cultura Mario Quintana</button>
+    </div>
+    <div class="passo" id="passo-3">
+        <p>Seguindo dentro da região, eles vão até a cidade indicada que é Manaus. E ao procurarem acham a próxima pista dentro do Teatro Amazonas, ela manda seguir para o Ceará</p>
+        <button class="btn-proximo" data-proximo="7">Seguir para o Ceará</button>
+</div>
+
+<div class="passo" id="passo-4">
+    <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+        <p>Vocé decide que embora a aventura parecesse interessante, não queria correr o risco. Mas sempre pensa o que poderia ter encontardo</p>
+</div>
+
+<div class="passo" id="passo-5">
+        <p>Seguindo por dentro da região Sul, eles vão até a cidade de Porto Alegre, e investigam o Parque Redenção. Dentro do Parque encontram um mapa escondido que esta apontado para o Estado do Ceará e a:</p>
+        <button class="btn-proximo" data-proximo="7">Viajar para o Ceará</button>
+</div>
+
+<div class="passo" id="passo-6">
+        <p>Explorando a Casa de Cultura, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
+        <button class="btn-proximo" data-proximo="8">Voltar e explorar o Parque</button>
+</div>
+
+<div class="passo" id="passo-7">
+    <p>No Ceará a busca vai se intensificando. Pórem, os jovens se deparam com um Rio bifurcado</p>
+    <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
+    <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+</div>
+
+<div class="passo" id="passo-8">
+    <p>De volta ao Parque da Redençao, eles encontram um mapa antigo que os leva ao Ceará</p>
+    <button class="btn-proximo" data-proximo="7">Seguir para o Ceará</button>
+</div>
+
+<div class="passo" id="passo-9">
+    <p>O Rio a esquerda leva a uma cachoeira perdida, com inscriçoes que mostram a entrada para o tesouro</p>
+    <button class="btn-proximo" data-proximo="11">Explorar a cachoeira</button>
+</div>
+
+<div class="passo" id="passo-10">
+    <p>O caminho a direita os leva para uma região deserta. Apesar de bem extensa, nao parece ter um tesouro</p>
+    <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+</div>
+
+<div class="passo" id="passo-11">
+    <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+    <p>Dentro da cachoeira, eles descobre tesouros inimagináveis e eles decidem se dedicar a estudar e preservar este lugar</p>
+</div>
+
+<div class="passo" id="passo-12">
+    <p>Retornando e escolhendo o rio à esquerda, eles finalmente encontram a cachoeira escondida e as inscrições que levam ào tesouro perdido.</p>
+    <button class="btn-proximo" data-proximo="11">Explorar a o tesouro</button>
+</div>
+   </main>
+   <script src="script.js"></script>
+</body>
+</html>
